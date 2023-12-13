@@ -2,6 +2,7 @@
     text-decoration: none ;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
    
 }
 
@@ -277,17 +278,22 @@
 
   /* Media Mobile Pagina Web */
   @media (max-width: 910px) {
- 
+  
+
+
     .col-lg-6 {
+        overflow-y: hidden;
         display: flex;
         justify-content: center;
+        padding: 0% !important;
     }
 
     .listadoOperadores{
-        width: 450px;
+        width: 350px;
         border: 1px solid #ddd;
         border-radius: 8px;
-        padding: 10px !important;
+        
+        margin: 0%;
         margin-bottom: 10px !important;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
