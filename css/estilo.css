@@ -105,7 +105,107 @@
     justify-content: center;
 }
 
+/* Estilos Pagina Web */
+.containerTextoWeb {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
 
+.containerTextoWeb p {
+    text-align: center;
+}
+
+.containerWeb{
+    display: flex;
+    justify-content: center;
+    text-align: center;   
+}
+
+.textWebFont{
+    font-size: 160%;
+}
+
+
+.listadoOperadores{
+    width: 450px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.containerOperadores{
+    display: flex;
+    justify-content: center;
+}
+.certificado, .jamboree, .diplomado, .bases, .categorias,
+ .abril {
+    
+    width: 450px;
+    height: 550px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+
+.sectionWeb{
+    background-color: #afaaaa0e;
+}
+
+.certificado h1, .jamboree h2, .diplomado h4, .bases p,
+.categorias h1, .listadoOperadores h5, .abril h1, .abril h2 {
+    color: #333;
+}
+
+.certificado p, .jamboree p, .diplomado p, .bases p,
+.categorias p, .listadoOperadores p, .abril p {
+    color: #555;
+}
+
+.certificado a, .abril a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.listadoOperadores h6 {
+    margin-top: 15px;
+}
+
+.listadoOperadores h6, .listadoOperadores p {
+    color: #333;
+}
+
+.listadoOperadores p {
+    margin-bottom: 10px;
+}
+
+.containerImgWeb{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.imgWeb{
+    border-radius: 10%;
+    margin: 20px;
+}
+
+.certificado{
+   
+
+    border-radius: 0px ;
+}
+
+
+
+
+
+/* Fin estilos PAgina web */
 
 /* Media Mobile */
 @media (max-width:1000px)  {
@@ -129,7 +229,7 @@
 
     .ip{
         font-family:'Courier New', Courier, monospace;
-        width: 65%;
+        width: 70%;
         margin: 40px;
         height:250px;
         background-color: rgba(245, 245, 245, 0.37);
@@ -173,3 +273,15 @@
     }
     
   }
+
+  /* Media Mobile Pagina Web */
+  @media (min-width: 900px) {
+    .col-lg-6 {
+        display: flex;
+        justify-content: center;
+    }
+  }
+
+
+
+  /* Fin Media mobile web */
