@@ -1,0 +1,176 @@
+*{
+    text-decoration: none ;
+    margin: 0;
+    padding: 0;
+}
+
+.tituloBienvenida{
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+.nav-link{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.navFijo{
+    background-color:black ;
+}
+
+.home{
+    background: url("../recursos/img/pexels-pixabay-270288.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    height: 700px;
+    width: 100% !important; 
+    
+}
+
+.textoParallaxIndex{
+    color: rgb(238, 238, 238);
+}
+
+.textosParallax{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 210px;
+}
+
+.textServer{
+    color: black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+.textServer{
+    color: black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+.containerIp{
+    display: flex;
+    justify-content: center;
+}
+
+.ip{
+    font-family:'Courier New', Courier, monospace;
+    width: 30%;
+    height:220px;
+    border-radius: 30px ;
+    padding-top: 30px;
+    background-color: rgba(245, 245, 245, 0.37);
+    margin-bottom: 100px;
+}
+
+
+.ip2{
+   
+    font-family:'Courier New', Courier, monospace;
+    width: 30%;
+    height:230px;
+    border-radius: 30px ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(245, 245, 245, 0.37);
+    margin-bottom: 250px;
+}
+
+
+
+
+
+.containerSection{
+  
+    background-color: rgba(0, 0, 0, 0.596);
+    width: 100%;
+    height: 100%;
+}
+
+.containerFooter{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+}
+
+.containerImg{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* Media Mobile */
+@media (max-width:1000px)  {
+
+    .textosParallax{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 310px;
+    }
+    
+    .home{
+        background: url("../recursos/img/pexels-pixabay-270288.jpg");
+        background-size: cover;
+        background-position: 50%  ;
+        background-attachment: fixed;
+        height: 990px;
+        width: 100% !important;        
+    }
+
+    .ip{
+        font-family:'Courier New', Courier, monospace;
+        width: 65%;
+        margin: 40px;
+        height:200px;
+        background-color: rgba(245, 245, 245, 0.37);
+        
+    }
+    
+    .ip2{
+        font-family:'Courier New', Courier, monospace;
+        width: 65%;
+        margin: 40px;
+        height:300px;
+        background-color: rgba(245, 245, 245, 0.37);
+        
+    }
+
+    .textServer{
+        color: black;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.5em;
+    }
+}
+
+
+@media (min-width: 1300px) {
+    .home{
+        background: url("../recursos/img/pexels-pixabay-270288.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: repeat;
+        height: 1000px;
+        width: 100% !important;        
+    }
+
+    .textosParallax{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 20rem;
+    }
+    
+  }
+
