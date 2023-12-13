@@ -2,6 +2,7 @@
     text-decoration: none ;
     margin: 0;
     padding: 0;
+   
 }
 
 .tituloBienvenida{
@@ -275,11 +276,22 @@
   }
 
   /* Media Mobile Pagina Web */
-  @media (min-width: 900px) {
+  @media (max-width: 910px) {
+ 
     .col-lg-6 {
         display: flex;
         justify-content: center;
     }
+
+    .listadoOperadores{
+        width: 450px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 10px !important;
+        margin-bottom: 10px !important;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
   }
 
 
