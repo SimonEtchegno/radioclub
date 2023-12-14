@@ -6,6 +6,12 @@
    
 }
 
+
+
+.parallaxMenuNav{
+    color: rgb(255, 255, 255);
+}
+
 .tituloBienvenida{
     margin: 10px;
     text-align: center;
@@ -156,7 +162,7 @@
 }
 
 .sectionWeb{
-    background-color: #afaaaa0e;
+    background-color: #da14140e;
 }
 
 .certificado h1, .jamboree h2, .diplomado h4, .bases p,
