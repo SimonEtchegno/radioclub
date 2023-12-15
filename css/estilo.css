@@ -26,6 +26,12 @@
     background-color:black ;
 }
 
+.nav-link:hover{
+    color: rgb(105, 102, 102);
+}
+
+
+
 .home{
     background: url("../recursos/img/pexels-pixabay-270288.jpg");
     background-size: cover;
@@ -131,7 +137,7 @@
 }
 
 .textWebFont{
-    font-size: 160%;
+    font-size: 110%;
 }
 
 
@@ -173,6 +179,7 @@
 .certificado p, .jamboree p, .diplomado p, .bases p,
 .categorias p, .listadoOperadores p, .abril p {
     color: #555;
+    text-align: left;
 }
 
 .certificado a, .abril a {
@@ -193,19 +200,17 @@
 }
 
 .containerImgWeb{
-    margin-top: 100px;
+
     display: flex;
     justify-content: center;
 }
 
 .imgWeb{
+    margin: 50px;
     border-radius: 10%;
-    margin: 20px;
 }
 
 .certificado{
-   
-
     border-radius: 0px ;
 }
 
